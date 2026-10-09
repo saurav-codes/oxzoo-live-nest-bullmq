@@ -1,0 +1,12 @@
+[app]
+health = "/_zoo/health"
+
+[build]
+migrate = "node dist/migrate"
+
+[workers]
+worker = "exec node dist/worker"
+
+[services]
+postgres = {}
+redis    = {}
