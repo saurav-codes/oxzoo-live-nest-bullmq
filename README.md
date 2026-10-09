@@ -1,6 +1,10 @@
 # nest-bullmq
 
-> **Role in the zoo:** project `nest-bullmq` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with ox on server s1 at https://nest-bullmq.s1.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
+Deployed with [ox](https://deploywithox.com): deploy a repo to your own server with one command, no Docker. [Docs](https://deploywithox.com/docs) · [Guide for this stack](https://deploywithox.com/docs/guides/nestjs)
+
+**Live demo:** https://nest-bullmq.s1.zoo.sorv.dev
+
+> **Role in the zoo:** project `nest-bullmq` of [oxzoo-live](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/README.md#projects), deployed with [ox](https://deploywithox.com) on server s1 at https://nest-bullmq.s1.zoo.sorv.dev. The contract it follows is [DESIGN.md](https://github.com/saurav-codes/oxzoo-live-control/blob/main/zoo/DESIGN.md).
 
 NestJS + BullMQ on s1 (`nest-bullmq.s1.zoo.sorv.dev`). The app enqueues jobs in
 BullMQ on a private Redis; a separate worker process (an ox worker) hashes the text
